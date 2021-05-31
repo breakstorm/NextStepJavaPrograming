@@ -20,16 +20,16 @@ class MainTest {
 
     @Test
     void subtract() {
-        assertEquals(9, calc.add(6, 3));
+        assertEquals(3, calc.subtract(6, 3));
     }
 
     @Test
     void multiply() {
-        assertEquals(9, calc.add(6, 3));
+        assertEquals(18, calc.multiply(6, 3));
     }
 
     @Test
     void divide() {
-        assertEquals(9, calc.add(6, 3));
+        assertEquals(2, calc.divide(6, 3));
     }
 }
